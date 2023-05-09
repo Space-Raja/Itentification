@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>
+            Identification
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body style="background-color:cornsilk;">
+<center>
+ <label class="btn btn-primary" style="width:100%; margin:0px;">
+    <h1 class="btn btn-success" id="heading">Image Identification Web App</h1>
+    <hr>    
+    <h2 class="btn btn-info col-lg-12 col-xs-4" id="info">In this app, you have to use camera. For you to understand, here is an information. Here responds will be given. If you are ready, just say 'what is this' after model is loaded to identify the image.</h2>
+ </label>   
+</center>
+
+<span class="col-lg-4 col-xs-4">
+    <div id="camera" > 
+    
+    </div>
+    <br>
+       
+</span>
+
+<span class="col-lg-4 col-xs-4">
+    <div id="snaps">
+
+    </div>
+    <br>
+    
+</span>
+
+<span class="col-lg-4 col-xs-4">
+<h3 style="font-family:cursive;" id="res"></h3>
+
+    <h3 style="font-family:cursive;" id="result"></h3>
+
+   
+    <div id="sumary"></div>
+
+</span>
+
+</body>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,30 @@
+#heading{
+    width:100%;
+    margin-top:2px;
+    font-size:21px;
+    font-family:cursive;
+}
+
+#info{
+    width: 100%;
+    font-size:18px;
+    font-family:serif;
+}
+
+#camera{
+    border-radius:10px;
+    border-width:3px;
+    border-color:red;
+    border-style:outset;
+   
+    margin-top:50px;
+}
+
+#snaps{
+    border-radius:10px;
+    border-width:3px;
+    border-color:rgb(21, 0, 255);
+    border-style:outset;
+    
+    margin-top:50px;
+}
